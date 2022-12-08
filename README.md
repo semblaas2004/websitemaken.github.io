@@ -8,18 +8,19 @@
       padding: 0;
     }
 
-    nav {
+    .navigation {
+      width: 100%;
       background-color: #eee;
     }
 
-    nav ul {
+    .navigation ul {
       padding: 0;
       margin: 0;
       list-style: none;
+      display: flex;
     }
 
-    nav ul li {
-      display: inline-block;
+    .navigation ul li {
       margin-left: 20px;
     }
 
@@ -36,13 +37,13 @@
   </style>
 </head>
 <body>
-  <nav>
+  <div class="navigation">
     <ul>
       <li><a href="home.html">Home</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-  </nav>
+  </div>
   <h1>Welcome to My Website</h1>
   <div>
     <h2>About Me</h2>
